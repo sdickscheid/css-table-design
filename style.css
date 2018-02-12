@@ -1,0 +1,120 @@
+body {
+  background-color: #eeeeee;
+}
+
+.wrapper {
+  margin: 0 50px 0 50px;
+}
+
+p {
+  margin-bottom: 0.8em;
+}
+
+.image {
+  margin-right: 10px;
+  margin-top:5px;
+  float: left;
+}
+
+.image-cal {
+  margin-right: 10px;
+  margin-top:5px;
+  float: right;
+}
+
+.header {
+  margin-top: 15px;
+  border: 1px solid #888888;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  padding: 15px;
+  color: #555555;
+  background: linear-gradient(white, #dddddd);
+}
+
+.table-container {
+  border: 1px solid #888888;
+  margin-bottom: 0px !important;
+}
+
+.table-bordered td:nth-of-type(1),
+.table-bordered th:nth-of-type(1),
+.table-bordered th:nth-of-type(2) {
+  border-right: 2px solid #888888;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.myTable {
+  border: 1px solid grey;
+  background-color: white;
+  padding: 12px;
+}
+
+.table-margin {
+  padding: 0px;
+  border: 1px solid grey;
+  margin-bottom: 50px;
+}
+
+.table-header {
+  border: 2px solid #444444;
+  background-color: #444444;
+  text-align: center;
+  color: white;
+}
+
+td {
+  font-size: 11px;
+  text-align: left;
+
+}
+
+.text-box {
+  box-shadow: inset 4px 4px 9px -6px rgba(0,0,0,0.9);
+}
+
+.td-text-left {
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 5px 5px 5px 15px;
+  height: 30px;
+}
+
+.td-text-right {
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px 5px 5px 15px;
+  height: 30px;
+  width: 85%;
+  float: left;
+}
+
+.table-foot {
+  background-color: #444444;
+  border: 2px solid black;
+}
+
+.btns {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.btnStyle {
+  border-top: 1px solid #dddddd;
+  border-left: 2px solid #cccccc;
+  border-right: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: left;
+}
